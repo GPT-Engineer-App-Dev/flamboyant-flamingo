@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { CircleUser, Menu, Flamingo } from "lucide-react"; // Changed icon to Flamingo
+import { Feather, Menu, Package2 } from "lucide-react"; // Changed icon to Feather
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
 
@@ -34,7 +34,7 @@ const DesktopNav = () => (
       to="/"
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
-      <Flamingo className="h-6 w-6" /> {/* Changed icon to Flamingo */}
+      <Feather className="h-6 w-6" /> {/* Changed icon to Feather */}
       <span className="sr-only">Flamingo World</span> {/* Changed text to Flamingo World */}
     </NavItem>
     {navItems.map((item) => (
@@ -59,7 +59,7 @@ const MobileNav = () => (
           to="/"
           className="flex items-center gap-2 text-lg font-semibold"
         >
-          <Flamingo className="h-6 w-6" /> {/* Changed icon to Flamingo */}
+          <Feather className="h-6 w-6" /> {/* Changed icon to Feather */}
           <span className="sr-only">Flamingo World</span> {/* Changed text to Flamingo World */}
         </NavItem>
         {navItems.map((item) => (
