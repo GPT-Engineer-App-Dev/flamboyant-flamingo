@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { Feather, Menu, Package2 } from "lucide-react"; // Changed icon to Feather
+import { Feather, Menu, Package2, CircleUser } from "lucide-react"; // Added CircleUser import
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
 
